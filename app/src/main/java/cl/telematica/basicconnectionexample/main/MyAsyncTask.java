@@ -1,5 +1,6 @@
 package cl.telematica.basicconnectionexample.main;
 
+import android.app.ProgressDialog;
 import android.os.AsyncTask;
 
 import cl.telematica.basicconnectionexample.connection.HttpServerConnection;
