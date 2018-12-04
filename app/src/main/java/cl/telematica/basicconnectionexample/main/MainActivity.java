@@ -71,7 +71,7 @@ public class MainActivity extends AppCompatActivity implements MainView {
 
     @Override
     public void populateRecyclerView(List<Libro> libros) {
-        mAdapter = new UIAdapter(libros);
+        mAdapter = new UIAdapter(libros, this);
         mRecyclerView.setAdapter(mAdapter);
     }
 }
